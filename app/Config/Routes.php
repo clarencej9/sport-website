@@ -9,4 +9,5 @@ use App\Controllers\Users;
 $routes->get('/', 'Home::index');
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('/(:segment)', [Pages::class, 'view']);
+$routes->get('matches', [Matches::class, 'index']);
 $routes->get('/(:segment)', [\App\Controllers\Pages::class, 'view']);
