@@ -1,7 +1,8 @@
-<?= view('templates/header', ['title' => 'Teams']) ?>
+
 
 <div class="container py-4">
-    <h2 class="mb-3">Teams</h2>
+    <h2 class="mb-3">Information about Clubs in Prem,La liga, Seria A, Bundesliga
+    </h2>
 
     <input 
         type="text" 
@@ -55,4 +56,4 @@
     });
 </script>
 
-<?= view('templates/footer') ?>
+
